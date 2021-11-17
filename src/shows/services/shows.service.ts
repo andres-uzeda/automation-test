@@ -1,6 +1,6 @@
 import { get } from 'request-promise-native';
 
-const BASE_URL = "http://api.tvmaze.com/";
+const BASE_URL = "https://api.tvmaze.com/";
 
 export function getAllShows() {
     return get(BASE_URL + 'search/shows?q=batman');
